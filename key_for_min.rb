@@ -6,13 +6,11 @@ key_for_min = nil
 key_for_min = nil
 name_hash.each do |key, value|
  if lowest_value == nil || value < lowest_value
-   lowest_value
-  return :adam
-else value == 1 
-return :blake
-   
+   lowest_value = value
+   key_for_min = key 
 end
 end
+   key_for_min
 end
 
 
