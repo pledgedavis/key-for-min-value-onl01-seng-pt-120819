@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
 name_hash.collect do |value|
  if value != 1 
   return :adam
-else value != 1 
+else value == 1 
 return :blake
    
 end
